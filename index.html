@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<style>
+    
+    *{
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        
+    }
+    p {
+      margin-left: 15px;
+    }
+        header {
+        height: 40px;
+        color: white;
+        background-color: black;
+        padding: 20px 10px;
+        border-radius: 50px;
+    } 
+    li {
+      margin-left: 18px;
+    }
+    header span {
+        color: rgb(5, 143, 9);
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+gi        align-items: center;
+        flex-direction: column;
+    
+        
+    }
+    /*#bottle{
+      background-color: blanchedalmond;
+      border-radius: 50px;
+      margin-left: 10px;
+      }*/
+    
+  
+    body {
+      font-family: Arial, sans-serif;
+      background: blanchedalmond;
+      border-radius: 50px;
+      padding: 20px;
+    }
+
+    .contact-form {
+      background: #fff;
+      padding: 25px;
+      max-width: 500px;
+     /* margin: auto;*/
+     margin-left: 300px;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-bottom: 500px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #28a745;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+    .aboutMe {
+      border-top: 20px;
+      border-radius: 50px;
+      border-color: #28a745;
+    }
+    .mainCv{
+      margin-left: 18px;
+    }
+</style>
+<body>
+  <div  id ="bottle">
+    <header>
+        <div class = "container">  
+            <h1>Law <span>Adagbon</span></h1>
+            <h4>(Software Engineer and AI/ML Engineer)</h4>
+
+        </div>
+    </header>
+    <div class = aboutMe>
+        <h2>📝 About Me</h2>
+        <p class="table">
+            Hello! I'm Law Adagbon, a software engineer passionate about crafting intelligent applications 
+           that bridge the gap between innovative technology and practical solutions. My journey spans full-stack
+           web development and AI/ML engineering, where I focus on building systems that are not only functionally 
+           robust but also intuitive and engaging for users.
+           I specialize in developing scalable web applications and implementing machine learning solutions, 
+           always with an eye toward creating meaningful user experiences. Whether I'm architecting backend systems, 
+           designing responsive frontends, or training models to solve complex problems, I'm motivated by the challenge
+           of turning abstract ideas into tangible, impactful software.
+           
+        </p>
+        <hr />
+    </div>
+    <div>
+        <h2>🎓 Educational Background</h2>
+        <p>I hold a degree in Chemical Engineering from  University of Benin, Nigeria.</p>
+        <h5 class="mainCv"> <a href="https://facebook.com/" download="Law_Adagbon_CV"> Download my CV! </a> </h5>
+      <hr />
+      </div>
+    <div>
+        <h2>💡 Interests</h2>
+        <ul>
+            <li> <strong> Web Development: </strong>Exploring modern frameworks and best practices. </li> 
+            <li><strong> Artificial Intelligence:</strong> Building intelligent, scalable AI systems that implement machine learning algorithms and train models to solve real-world problems. </li> 
+            <li><strong>Blockchain Development:</strong>Building decentralized applications and smart contracts
+                 on blockchain networks to create secure, transparent,
+                and trustless solutions.</li>
+        </ul>
+    <hr />  
+    </div>
+    <div>
+        <h2> 🛠️ Projects</h2>
+        <ul>
+            <li> <a href="https://facebook.com/" > PerX: </a> A Personal Finance tracker AI Agent</li>
+            <li> <a href="https://facebook.com/" > LagosNxt:</a>Traffic Managent AI Agent for Lagos, Nigeria</li>
+            <li><a href="https://facebook.com/" > law.com:</a>My personal Website</li>
+            <li><a href="https://facebook.com/" >Agricrevol:</a>The first Space Agricultural Infrasture Center in Africal </li>
+            <li><a href="https://facebook.com/" >Musica:</a>The first music school for Developers in the world. It explores the interceseeion of music and Software Development!</li>
+            <li><a href="https://facebook.com">FitFarm:</a>AI powred fully integrated Fitness appliation that traffs the personalization of the fitness journey</li>
+        </ul>
+      <hr />
+      </div>   
+    <div class="contact-form">
+         <h2>📬 Contact Me</h2>
+        <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+         <div class="form-group">
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+        </div>
+
+        <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+         </div>
+
+        <button type="submit">Send Message</button>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
